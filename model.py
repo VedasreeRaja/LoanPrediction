@@ -1,9 +1,9 @@
-import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import RidgeClassifier
 from sklearn.metrics import accuracy_score
 import pickle
+import pandas as pd
 # load the data
 data = pd.read_csv('LoanApprovalPrediction.csv')
 # Drop Loan_ID column
